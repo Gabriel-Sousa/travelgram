@@ -1,0 +1,35 @@
+.profile h1{
+  font: var(--heading);
+  color: var(--text-color-primary);
+}
+
+p, section:nth-child(2){
+  font: var(--paragraph-sm);
+}
+
+
+
+@media(width >= 60em){
+  .profile section:nth-child(1){
+    margin-right: auto;
+    
+    color: var(--text-color-secondary);
+    gap: 2rem;
+  }
+
+  .profile section:nth-child(2){
+    max-width: 17.5rem;
+    width: 100%;
+  }
+  
+  .profile:nth-child(2), .profile section:nth-child(1){
+    flex-direction: row; 
+    align-items: center;
+  }
+  
+  p{
+    max-width: 24rem;
+  }
+
+  
+}

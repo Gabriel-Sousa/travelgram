@@ -1,0 +1,23 @@
+main{
+  background-color: var(--background-color);
+}
+
+main section img{
+  width: 100%;
+}
+
+main section{
+  padding-block: 1rem;
+  gap: 1rem;
+ 
+}
+
+@media(width >= 60em){
+
+  main section{
+    padding-block: 1.5rem;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+}
