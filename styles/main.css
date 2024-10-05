@@ -12,6 +12,22 @@ main section{
  
 }
 
+.pop-in{
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pop-in img{
+  transition: all 0.3s ease-in-out; 
+}
+
+.pop-in img:hover{
+  scale: 1.1;
+  rotate: 5deg;
+  transition: all 0.3s ease-in-out; 
+  filter: grayscale(0.5);
+}
+
 @media(width >= 60em){
 
   main section{
